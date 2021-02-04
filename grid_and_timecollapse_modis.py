@@ -37,14 +37,14 @@ def delete_no_overlap(filelist):
 
 months=['00','01','02','03','04','05','06','07','08','09','10','11','12']
 modis_year = '2018'
-modis_dir = '/neodc/modis/data/MYD06_L2/collection61/{}/{}/{}/'
-modis_month = months[1]
+modis_dir = '/neodc/modis/data/MOD06_L2/collection61/{}/{}/{}/'
+modis_month = months[8]
 
 days=['01','02','03','04','05','06','07','08','09',
       '10','11','12','13','14','15','16','17','18','19',
       '20','21','22','23','24','25','26','27','28','29', '30','31']
 
-#modis_day = days[0]
+#modis_day = days[7]
 for modis_day in days:
     print('gridding for day {}/{}/{}'.format(modis_day, modis_month, modis_year))
     #ROI is UTC-5 so there is no daylight before ~1200 UTC --> Overpass time for Terra is around 1800 UTC
@@ -57,22 +57,23 @@ for modis_day in days:
     modis_daily = modis_daily[start_time:end_day]
     modis_daily=delete_no_overlap(modis_daily)
 
-    
+
     #get data, need to do seperately because of different resolution
     mod_hr=read_data_list(modis_daily,
                        ['Cloud_Fraction',
                         'Cloud_Top_Temperature'])
     mod_lr=read_data_list(modis_daily,
-                          ['Cloud_Effective_Radius','Cloud_Water_Path'], product='MOD06_HACK')
-    
-    
+                          ['Cloud_Effective_Radius',
+                           'Cloud_Effective_Radius_Uncertainty',
+                           'Cloud_Water_Path'], product='MOD06_HACK')
+
+
     #grid ungridded data to 0.1 deg grid, time dimension is collapsed (taking a mean?)
-    agg_mod_lr=mod_lr.aggregate(x=[-90.0,-70.,0.1], y=[-35.0,0.0,0.1])
-    agg_mod_hr=mod_hr.aggregate(x=[-90.0,-70.,0.1], y=[-35.0,0.0,0.1])
-    
-    
+    agg_mod_lr=mod_lr.aggregate(x=[-90.05,-69.95,0.1], y=[-35.05,0.05,0.1])
+    agg_mod_hr=mod_hr.aggregate(x=[-90.05,-69.95,0.1], y=[-35.05,0.05,0.1])
+
+
     #add the two datasets together and save
     all_data=GriddedDataList([agg_mod_hr[0],agg_mod_hr[3], agg_mod_lr[0], agg_mod_lr[3]])
-    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis/'+modis_year+ modis_month + modis_day+".nc")
-   
-    
+    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis_terra/'+modis_year+ modis_month + modis_day+".nc")
+
