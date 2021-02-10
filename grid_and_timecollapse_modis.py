@@ -37,12 +37,12 @@ def delete_no_overlap(filelist):
 
 months=['00','01','02','03','04','05','06','07','08','09','10','11','12']
 modis_year = '2018'
-modis_dir = '/neodc/modis/data/MOD06_L2/collection61/{}/{}/{}/'
-modis_month = months[8]
+modis_dir = '/neodc/modis/data/MYD06_L2/collection61/{}/{}/{}/'
+modis_month = months[2]
 
 days=['01','02','03','04','05','06','07','08','09',
       '10','11','12','13','14','15','16','17','18','19',
-      '20','21','22','23','24','25','26','27','28','29', '30','31']
+      '20','21','22','23','24','25','26','27','28']#,'29', '30','31']
 
 #modis_day = days[7]
 for modis_day in days:
@@ -50,9 +50,9 @@ for modis_day in days:
     #ROI is UTC-5 so there is no daylight before ~1200 UTC --> Overpass time for Terra is around 1800 UTC
     #make a list of MODIS files on the day, check for overlap and delete those without 
     modis_daily = sorted(glob.glob(modis_dir.format(modis_year, modis_month, modis_day) + '*.hdf'))
-    end_day = glob.glob(modis_dir.format(modis_year, modis_month, modis_day) + '*.2355.*.hdf')[0]
+    end_day = glob.glob(modis_dir.format(modis_year, modis_month, modis_day) + '*.2045.*.hdf')[0]
     end_day = modis_daily.index(end_day)
-    start_time=glob.glob(modis_dir.format(modis_year, modis_month, modis_day) + '*.1500.*.hdf')[0]
+    start_time=glob.glob(modis_dir.format(modis_year, modis_month, modis_day) + '*.1200.*.hdf')[0]
     start_time=modis_daily.index(start_time)
     modis_daily = modis_daily[start_time:end_day]
     modis_daily=delete_no_overlap(modis_daily)
@@ -75,5 +75,5 @@ for modis_day in days:
 
     #add the two datasets together and save
     all_data=GriddedDataList([agg_mod_hr[0],agg_mod_hr[3], agg_mod_lr[0], agg_mod_lr[3]])
-    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis_terra/'+modis_year+ modis_month + modis_day+".nc")
+    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis_aqua/'+modis_year+ modis_month + modis_day+".nc")
 
