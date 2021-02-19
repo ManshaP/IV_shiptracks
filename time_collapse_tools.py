@@ -24,15 +24,52 @@ def load_modis(modis_dir, month, crop_max=100, uncert_thresh=8):
     #print('loading done, starting to process')
 
     re=ds['Cloud_Effective_Radius'].where(ds['Cloud_Top_Temperature'] > 272.15-15, np.nan)
-    
     print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
+    
     re=re.where(ds['Cloud_Effective_Radius_Uncertainty']<uncert_thresh, np.nan)
     print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
+    
     re=xr.where(re>1000, np.nan, re)
     re=xr.where(re<4, np.nan, re)
     print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
     
+    ctt=ds['Cloud_Top_Temperature'].where(ds['Cloud_Top_Temperature'] < 500, np.nan)
+    
+    return re, ctt
+
+
+def load_modis_outcome(modis_dir, month, target='Cloud_Water_Path', uncert_thresh=8):
+    filelist=glob.glob(modis_dir + '2018' + month + "*.nc")
+    ds=xr.open_mfdataset(filelist)
+    #print('loading done, starting to process')
+
+    re=ds[target]#.where(ds['Cloud_Top_Temperature'] > 272.15-15, np.nan)
+    
+    print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
+    
+    if target=='Cloud_Fraction': re=re.where(ds[target]<=1., np.nan)
+    if target=='Cloud_Optical_Thickness': re=re.where(ds[target]<=1e10, np.nan)
+    if target=='Cloud_Water_Path': re=re.where(ds[target]<=1e10, np.nan)
+
+
+    print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
     return re
+
+def condensation_rate(T):
+    cr=0.0192*T - 4.293
+    return cr
+
+def drop_num(r, cot, temp):
+   
+    r=np.power(r*10**(-6),-5/2)
+    cot=np.power(cot,1/2)
+    drop_num=np.multiply(r, cot)
+    drop_num=np.multiply(drop_num, condensation_rate(temp))
+    #prop constant
+    drop_num*=1.37e-5
+    #convert to per cm^3
+    drop_num/=1e6
+    return drop_num
 
 
 def coarsened_emis(emis, window_size=3):
@@ -96,7 +133,7 @@ def select_data(r_eff_da,emissions_da,
     #always crop the first day of sat_image
     re=re.isel(time=slice(1, len(re.time)-1))
     #print(re.mean().values)
-    emis=coarsened_emis(emis, window_size=coarsening)
+    if coarsening != 1: emis=coarsened_emis(emis, window_size=coarsening)
     #print(re.mean().values)
 
     
