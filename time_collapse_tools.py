@@ -38,7 +38,7 @@ def load_modis(modis_dir, month, crop_max=100, uncert_thresh=8):
     return re, ctt
 
 
-def load_modis_outcome(modis_dir, month, target='Cloud_Water_Path', uncert_thresh=8):
+def load_modis_outcome(modis_dir, month, target='Cloud_Water_Path', uncert_thresh=10):
     filelist=glob.glob(modis_dir + '2018' + month + "*.nc")
     ds=xr.open_mfdataset(filelist)
     #print('loading done, starting to process')
@@ -48,7 +48,9 @@ def load_modis_outcome(modis_dir, month, target='Cloud_Water_Path', uncert_thres
     print(np.isnan(re).values.sum()/(np.logical_not(np.isnan(re)).values.sum()+np.isnan(re).values.sum()))
     
     if target=='Cloud_Fraction': re=re.where(ds[target]<=1., np.nan)
-    if target=='Cloud_Optical_Thickness': re=re.where(ds[target]<=1e10, np.nan)
+    if target=='Cloud_Optical_Thickness': 
+        re=re.where(ds[target]<=1e10, np.nan)
+        re=re.where(ds['Cloud_Optical_Thickness_Uncertainty'] < uncert_thresh, np.nan)
     if target=='Cloud_Water_Path': re=re.where(ds[target]<=1e10, np.nan)
 
 

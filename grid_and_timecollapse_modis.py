@@ -38,14 +38,14 @@ def delete_no_overlap(filelist):
 months=['00','01','02','03','04','05','06','07','08','09','10','11','12']
 modis_year = '2018'
 modis_dir = '/neodc/modis/data/MYD06_L2/collection61/{}/{}/{}/'
-modis_month = months[10]
+modis_month = months[11]
 
 days=['01','02','03','04','05','06','07','08','09',
       '10','11','12','13','14','15','16','17','18','19',
-      '20','21','22','23','24','25','26','27','28']#,'29', '30','31']
+      '20','21','22','23','24','25','26','27','28','29', '30']#,'31']
 
 #modis_day = days[7]
-for modis_day in ['14']:
+for modis_day in days:
     print('gridding for day {}/{}/{}'.format(modis_day, modis_month, modis_year))
     #ROI is UTC-5 so there is no daylight before ~1200 UTC --> Overpass time for Terra is around 1800 UTC
     #make a list of MODIS files on the day, check for overlap and delete those without 
@@ -59,27 +59,27 @@ for modis_day in ['14']:
 
 
     #get data, need to do seperately because of different resolution
-    mod_hr=read_data_list(modis_daily,
-                       ['Cloud_Fraction',
-                        'Cloud_Top_Temperature'])
-    mod_lr=read_data_list(modis_daily,
-                          ['Cloud_Effective_Radius',
-                           'Cloud_Effective_Radius_Uncertainty',
-                           'Cloud_Water_Path'], product='MOD06_HACK')
 #     mod_hr=read_data_list(modis_daily,
-#                        ['Cloud_Fraction'])
+#                        ['Cloud_Fraction',
+#                         'Cloud_Top_Temperature'])
 #     mod_lr=read_data_list(modis_daily,
-#                           ['Cloud_Water_Path',
-#                           'Cloud_Water_Path_Uncertainty',
-#                           'Cloud_Optical_Thickness',
-#                           'Cloud_Optical_Thickness_Uncertainty'], product='MOD06_HACK')
-
+#                           ['Cloud_Effective_Radius',
+#                            'Cloud_Effective_Radius_Uncertainty',
+#                            'Cloud_Water_Path'], product='MOD06_HACK')
+    mod_hr=read_data_list(modis_daily,
+                       ['Cloud_Fraction'])
+    mod_lr=read_data_list(modis_daily,
+                          ['Cloud_Water_Path',
+                          'Cloud_Water_Path_Uncertainty',
+                          'Cloud_Phase_Optical_Properties'], product='MOD06_HACK')
+    mod_lr[2].data=np.where(mod_lr[2].data==2., 1, 0)
+    
     #grid ungridded data to 0.1 deg grid, time dimension is collapsed (taking a mean?)
     agg_mod_lr=mod_lr.aggregate(x=[-90.05,-69.95,0.1], y=[-35.05,0.05,0.1])
     agg_mod_hr=mod_hr.aggregate(x=[-90.05,-69.95,0.1], y=[-35.05,0.05,0.1])
 
 
     #add the two datasets together and save
-    all_data=GriddedDataList([agg_mod_hr[0], agg_mod_lr[0], agg_mod_lr[3],agg_mod_lr[6],  ])
-    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis_aqua/'+modis_year+ modis_month + modis_day+".nc")
+    all_data=GriddedDataList([agg_mod_hr[0], agg_mod_lr[0], agg_mod_lr[3],agg_mod_lr[6] ])
+    all_data.save_data('/gws/nopw/j04/eo_shared_data_vol2/scratch/pete_nut/regrid_modis_aqua/targets/op'+modis_year+ modis_month + modis_day+".nc")
 

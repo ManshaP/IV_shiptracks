@@ -823,3 +823,948 @@ WARNING:root:Standard name 'None' not CF-compliant, this standard name will not 
 /home/users/pete_nut/miniconda3/lib/python3.8/site-packages/iris/fileformats/netcdf.py:2122: UserWarning: 'history' is being added as CF data variable attribute, but 'history' should only be a CF global attribute.
   warnings.warn(msg)
 gridding for day 14/10/2018
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:103: RuntimeWarning: invalid value encountered in arcsin
+  (90 - rad2deg(arcsin(sqrt(x__ ** 2 + y__ ** 2)
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/cis/collocation/data_index.py:79: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  indices = np.vstack(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:103: RuntimeWarning: invalid value encountered in arcsin
+  (90 - rad2deg(arcsin(sqrt(x__ ** 2 + y__ ** 2)
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/cis/collocation/data_index.py:79: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  indices = np.vstack(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:233: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:226: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:233: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:226: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/ma/core.py:5321: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = super(MaskedArray, self).var(axis=axis, dtype=dtype, out=out,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  ret = um.true_divide(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:103: RuntimeWarning: invalid value encountered in arcsin
+  (90 - rad2deg(arcsin(sqrt(x__ ** 2 + y__ ** 2)
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/cis/collocation/data_index.py:79: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  indices = np.vstack(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/ma/core.py:5321: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = super(MaskedArray, self).var(axis=axis, dtype=dtype, out=out,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  ret = um.true_divide(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:233: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:226: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/ma/core.py:5321: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = super(MaskedArray, self).var(axis=axis, dtype=dtype, out=out,
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/numpy/core/_methods.py:223: RuntimeWarning: invalid value encountered in true_divide
+  ret = um.true_divide(
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/iris/fileformats/netcdf.py:2122: UserWarning: 'history' is being added as CF data variable attribute, but 'history' should only be a CF global attribute.
+  warnings.warn(msg)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/iris/fileformats/netcdf.py:2122: UserWarning: 'history' is being added as CF data variable attribute, but 'history' should only be a CF global attribute.
+  warnings.warn(msg)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/iris/fileformats/netcdf.py:2122: UserWarning: 'history' is being added as CF data variable attribute, but 'history' should only be a CF global attribute.
+  warnings.warn(msg)
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:101: RuntimeWarning: invalid value encountered in arccos
+  90 - rad2deg(arccos(z__/EARTH_RADIUS)),
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:101: RuntimeWarning: invalid value encountered in arccos
+  90 - rad2deg(arccos(z__/EARTH_RADIUS)),
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 540 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 540 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 540 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Identified 540 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+/home/users/pete_nut/miniconda3/lib/python3.8/site-packages/geotiepoints/geointerpolator.py:101: RuntimeWarning: invalid value encountered in arccos
+  90 - rad2deg(arccos(z__/EARTH_RADIUS)),
+WARNING:root:Identified 13500 point(s) which were missing values for some or all coordinates - these points have been removed from the data.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
+WARNING:root:Units are not cf compliant, not setting them. Units none
+WARNING:root:Standard name 'None' not CF-compliant, this standard name will not be used in the output file.
+WARNING:root:Attempted to set invalid unit 'none'.
